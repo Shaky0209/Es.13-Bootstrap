@@ -151,7 +151,7 @@ const archive70s = [
     },
     {
         img: "70s/EarthWindFire.jpg",
-        title: "Te Essential",
+        title: "The Essential",
         art: "Earth, Wind & Fire",
         genre: "70s",
         recTime: "90min",
