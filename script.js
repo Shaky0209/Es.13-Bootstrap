@@ -204,7 +204,7 @@ let title = document.getElementsByClassName("card-title");
 let specifications = document.getElementsByClassName("list-group");
 let buttons = document.getElementsByClassName("btn");
 let button = document.createElement("button");
-let node = document.getElementsByClassName("content")[0];
+let node = document.getElementsByClassName("container-fluid")[0];
 let songs = [];
 let popUp;
 let bold1;
@@ -353,8 +353,6 @@ let details = (album) => {
 
     popUp = document.createElement("div");
     popUp.setAttribute("class", "fixed-top");
-
-
 
     for (let i = 0; i < album.songs.length; i++) {
 
