@@ -1,6 +1,7 @@
 const archiveJazz = [
     {
         img: "Jazz/FrankSinatra.jpg",
+        id: "frankSinatra",
         title: "My way the best of Frank",
         art: "Frank Sinatra",
         genre: "Jazz",
@@ -9,6 +10,7 @@ const archiveJazz = [
     },
     {
         img: "Jazz/MilesDavis.jpg",
+        id: "mileDavis",
         title: "Kind of Blue",
         art: "Miles Davis",
         genre: "Jazz",
@@ -17,6 +19,7 @@ const archiveJazz = [
     },
     {
         img: "Jazz/SonnyRollins.jpg",
+        id: "sonnyRollins",
         title: "Saxophone Colossus",
         art: "Sonny Rollins",
         genre: "Jazz",
@@ -25,6 +28,7 @@ const archiveJazz = [
     },
     {
         img: "Jazz/LouRawls.jpg",
+        id: "louRawls",
         title: "Unmistakably Lou",
         art: "Lou Rawls",
         genre: "Jazz",
@@ -33,6 +37,7 @@ const archiveJazz = [
     },
     {
         img: "Jazz/NicolaArigliano.jpg",
+        id: "nicolaArigliano",
         title: "Go Man!",
         art: "Nicola Arigliano",
         genre: "Jazz",
@@ -41,6 +46,7 @@ const archiveJazz = [
     },
     {
         img: "Jazz/DaveBrubeck.jpg",
+        id: "daveBrubeck",
         title: "Time Out",
         art: "Dave Brubeck",
         genre: "Jazz",
@@ -49,6 +55,7 @@ const archiveJazz = [
     },
     {
         img: "Jazz/AugustoMartelli.jpg",
+        id: "augustoMartelli",
         title: "Blue Genoa Sound",
         art: "Augusto Martelli",
         genre: "Jazz",
@@ -57,6 +64,7 @@ const archiveJazz = [
     },
     {
         img: "Jazz/LouisArmstrong.jpg",
+        id: "louisArmstrong",
         title: "The Very Best",
         art: "Louis Armstrong",
         genre: "Jazz",
@@ -68,6 +76,7 @@ const archiveJazz = [
 const archiveRock = [
     {
         img: "Rock/ac-dc.jpg",
+        id: "acdc",
         title: "Black Ice",
         art: "AC/DC",
         genre: "Rock",
@@ -76,6 +85,7 @@ const archiveRock = [
     },
     {
         img: "Rock/GunsNroses.jpg",
+        id: "gunsNRoses",
         title: "Use Your Illusion II",
         art: "Guns N' Roses",
         genre: "Rock",
@@ -84,6 +94,7 @@ const archiveRock = [
     },
     {
         img: "Rock/RollingStones.jpg",
+        id: "rollingStones",
         title: "Through The Past Darkly",
         art: "Rolling Stones",
         genre: "Rock",
@@ -92,6 +103,7 @@ const archiveRock = [
     },
     {
         img: "Rock/RedHotChiliPeppers.jpg",
+        id: "redHotChili",
         title: "Save The Population",
         art: "Ret Hot Chili Peppers",
         genre: "Rock",
@@ -100,6 +112,7 @@ const archiveRock = [
     },
     {
         img: "Rock/Nirvana.jpg",
+        id: "nirvana",
         title: "Nevermind",
         art: "Nirvana",
         genre: "Rock",
@@ -108,6 +121,7 @@ const archiveRock = [
     },
     {
         img: "Rock/Blink.jpg",
+        id: "blink",
         title: "Buddha",
         art: "Blink 182",
         genre: "Rock",
@@ -116,6 +130,7 @@ const archiveRock = [
     },
     {
         img: "Rock/DeepPurple.jpg",
+        id: "deepPurple",
         title: "Deep Purple in Rock",
         art: "Deep Purple",
         genre: "Rock",
@@ -124,6 +139,7 @@ const archiveRock = [
     },
     {
         img: "Rock/Cranberries.jpg",
+        id: "cramberries",
         title: "To The Faithful Departed",
         art: "Cranberries",
         genre: "Rock",
@@ -135,6 +151,7 @@ const archiveRock = [
 const archive70s = [
     {
         img: "70s/SisterSledge.jpg",
+        id: "sisterSledge",
         title: "Live in Concert",
         art: "Sister Sledge",
         genre: "70s",
@@ -143,6 +160,7 @@ const archive70s = [
     },
     {
         img: "70s/BeeGees.jpg",
+        id: "beeGees",
         title: "Stain' Alive",
         art: "Bee Gees",
         genre: "70s",
@@ -151,6 +169,7 @@ const archive70s = [
     },
     {
         img: "70s/EarthWindFire.jpg",
+        id: "earthWind",
         title: "The Essential",
         art: "Earth, Wind & Fire",
         genre: "70s",
@@ -159,6 +178,7 @@ const archive70s = [
     },
     {
         img: "70s/JamesBrown.jpg",
+        id: "jamesBrown",
         title: "Think!",
         art: "James Brown",
         genre: "70s",
@@ -167,6 +187,7 @@ const archive70s = [
     },
     {
         img: "70s/AlanSorrenti.jpg",
+        id: "alanSorrenti",
         title: "Tu sei l'unica donna per me",
         art: "Alan Sorrenti",
         genre: "70s",
@@ -175,6 +196,7 @@ const archive70s = [
     },
     {
         img: "70s/BoneyM.jpg",
+        id: "boneyM",
         title: "Nightflight to Venus",
         art: "Boney M.",
         genre: "70s",
@@ -183,6 +205,7 @@ const archive70s = [
     },
     {
         img: "70s/Sylvester.jpeg",
+        id: "sylvester",
         title: "Sylvester & The Hot Band",
         art: "Sylvester",
         genre: "70s",
@@ -191,6 +214,7 @@ const archive70s = [
     },
     {
         img: "70s/ChakaKhan.jpg",
+        id: "chakaKhan",
         title: "This is My Night",
         art: "Chaka Khan",
         genre: "70s",
@@ -199,180 +223,206 @@ const archive70s = [
     },
 ];
 
-let imgs = document.getElementsByTagName("img");
-let title = document.getElementsByClassName("card-title");
-let specifications = document.getElementsByClassName("list-group");
-let buttons = document.getElementsByClassName("btn");
-let button = document.createElement("button");
-let node = document.getElementsByClassName("container-fluid")[0];
-let songs = [];
-let popUp;
-let bold1;
-let bold2;
-let bold3;
-let paragraph;
-let paragraph1;
-let paragraph2;
-let paragraph3;
-let elements = document.getElementsByClassName("elVar");
+const cardImg = document.querySelectorAll("img.card-img-top");
+const cardTitle = document.querySelectorAll("h5.card-title");
+const modalTitle = document.querySelectorAll("h5.modal-title");
+const modalBody = document.querySelectorAll("div.modal-body");
+const divModal = document.querySelectorAll("div.modal.fade");
+const buttons = document.querySelectorAll("button.btn.btn-primary");
+const itemsList = document.querySelectorAll("li.list-group-item");
+const artist = document.querySelectorAll("li.art");
+const genre = document.querySelectorAll("li.genre");
+const rec = document.querySelectorAll("li.rec");
+const linkJazz = document.querySelector("a.jazz");
+const linkRock = document.querySelector("a.rock");
+const link70s = document.querySelector("a.y70s");
+let count = 0;
+let artTitle;
+let artName;
+let genreTitle;
+let genreName;
+let recTitle;
+let recValue;
 
-let rem = () => {
+const reset = ()=>{
+    if(count > 0){
+
+        count = 0;
+
+        artist.forEach(element => {
+            element.innerHTML = "";
+        });
+
+        genre.forEach(element => {
+            element.innerHTML = "";
+        });
+
+        rec.forEach(element => {
+            element.innerHTML = "";
+        });
+
+        modalBody.forEach(element => {
+            element.innerHTML = "";
+        });
+    }
+}
+
+const jazz = ()=>{
+
+    reset();
     
-    for (i = 0; i < elements.length; i++) {
+    linkJazz.classList.add("active");
+    linkRock.classList.remove("active");
+    link70s.classList.remove("active");
 
-        specifications[i].children[0].innerHTML = "";
-        specifications[i].children[1].innerHTML = "";
-        specifications[i].children[2].innerHTML = "";
-    }
-}
+    archiveJazz.forEach(element => {
+        cardImg[count].setAttribute("src", element.img);
+        cardImg[count].setAttribute("alt", element.img);
+        cardTitle[count].innerText = element.title;
 
-let jazz = () => {
+        artTitle = document.createElement("span");
+        artTitle.innerText = "Artist: ";
+        artTitle.style.fontWeight = "bold";
+        artName = document.createElement("span");
+        artName.innerText = element.art;
+        artist[count].appendChild(artTitle);
+        artist[count].appendChild(artName);
 
-    rem();
+        genreTitle = document.createElement("span");
+        genreTitle.innerText = "Genre: ";
+        genreTitle.style.fontWeight = "bold";
+        genreName = document.createElement("span");
+        genreName.innerText = element.genre;
+        genre[count].appendChild(genreTitle);
+        genre[count].appendChild(genreName);
 
-    for (let i = 0; i < archiveJazz.length; i++) {
+        recTitle = document.createElement("span");
+        recTitle.innerText = "Rec. Time: ";
+        recTitle.style.fontWeight = "bold";
+        recValue = document.createElement("span");
+        recValue.innerText = element.recTime;
+        rec[count].appendChild(recTitle);
+        rec[count].appendChild(recValue);
 
-        imgs[i].setAttribute("src", archiveJazz[i].img);
-        title[i].innerText = archiveJazz[i].title;
+        buttons[count].setAttribute("data-bs-target", "#" + element.id);
+        divModal[count].setAttribute("id", element.id);
+        modalTitle[count].innerText = element.title;
 
-        bold1 = document.createElement("b");
-        bold1.setAttribute("class", "elVar");
-        bold1.innerText = "Artist: ";
-        bold2 = document.createElement("b");
-        bold2.setAttribute("class", "elVar");
-        bold2.innerText = "Genre: ";
-        bold3 = document.createElement("b");
-        bold3.setAttribute("class", "elVar");
-        bold3.innerText = "Time Records: ";
-        paragraph1 = document.createElement("span");
-        paragraph1.setAttribute("class", "elVar");
-        paragraph2 = document.createElement("span");
-        paragraph2.setAttribute("class", "elVar");
-        paragraph3 = document.createElement("span");
-        paragraph3.setAttribute("class", "elVar");
-        paragraph1.innerText = archiveJazz[i].art;
-        paragraph2.innerText = archiveJazz[i].genre;
-        paragraph3.innerText = archiveJazz[i].recTime;
-        specifications[i].children[0].appendChild(bold1);
-        specifications[i].children[1].appendChild(bold2);
-        specifications[i].children[2].appendChild(bold3);
-        specifications[i].children[0].appendChild(paragraph1);
-        specifications[i].children[1].appendChild(paragraph2);
-        specifications[i].children[2].appendChild(paragraph3);
+        archiveJazz[count].songs.forEach(element => {
+            song = document.createElement("p");
+            song.innerText = element;
+            modalBody[count].appendChild(song);            
+        });
+        count++;        
+    });
+};
 
-        buttons[i].value = i;
-		buttons[i].addEventListener('click', () => {
-            details(archiveRock[i])});
-    }
-}
 
-let rock = () => {
 
-    rem();
+const rock = ()=>{
 
-    for (let i = 0; i < archiveRock.length; i++) {
+    reset();
 
-        imgs[i].setAttribute("src", archiveRock[i].img);
-        title[i].innerText = archiveRock[i].title;
-        bold1 = document.createElement("b");
-        bold1.innerText = "Artist: ";
-        bold1.setAttribute("class", "elVar");
-        bold2 = document.createElement("b");
-        bold2.innerText = "Genre: ";
-        bold2.setAttribute("class", "elVar");
-        bold3 = document.createElement("b");
-        bold3.innerText = "Time Records: ";
-        bold3.setAttribute("class", "elVar");
-        paragraph1 = document.createElement("span");
-        paragraph1.setAttribute("class", "elVar");
-        paragraph2 = document.createElement("span");
-        paragraph2.setAttribute("class", "elVar");
-        paragraph3 = document.createElement("span");
-        paragraph3.setAttribute("class", "elVar");
-        paragraph1.innerText = archiveRock[i].art;
-        paragraph2.innerText = archiveRock[i].genre;
-        paragraph3.innerText = archiveRock[i].recTime;
-        specifications[i].children[0].appendChild(bold1);
-        specifications[i].children[1].appendChild(bold2);
-        specifications[i].children[2].appendChild(bold3);
-        specifications[i].children[0].appendChild(paragraph1);
-        specifications[i].children[1].appendChild(paragraph2);
-        specifications[i].children[2].appendChild(paragraph3);
+    linkJazz.classList.remove("active");
+    linkRock.classList.add("active");
+    link70s.classList.remove("active");
+    
+    archiveRock.forEach(element => {
+        cardImg[count].setAttribute("src", element.img);
+        cardImg[count].setAttribute("alt", element.img);
+        cardTitle[count].innerText = element.title;
 
-        buttons[i].value = i;
-		buttons[i].addEventListener('click', () => {
-            details(archiveRock[i])});
-    }
-}
+        artTitle = document.createElement("span");
+        artTitle.innerText = "Artist: ";
+        artTitle.style.fontWeight = "bold";
+        artName = document.createElement("span");
+        artName.innerText = element.art;
+        artist[count].appendChild(artTitle);
+        artist[count].appendChild(artName);
 
-let y70s = () => {
+        genreTitle = document.createElement("span");
+        genreTitle.innerText = "Genre: ";
+        genreTitle.style.fontWeight = "bold";
+        genreName = document.createElement("span");
+        genreName.innerText = element.genre;
+        genre[count].appendChild(genreTitle);
+        genre[count].appendChild(genreName);
 
-    rem();
+        recTitle = document.createElement("span");
+        recTitle.innerText = "Rec. Time: ";
+        recTitle.style.fontWeight = "bold";
+        recValue = document.createElement("span");
+        recValue.innerText = element.recTime;
+        rec[count].appendChild(recTitle);
+        rec[count].appendChild(recValue);
 
-    for (let i = 0; i < archiveRock.length; i++) {
+        buttons[count].setAttribute("data-bs-target", "#" + element.id);
+        divModal[count].setAttribute("id", element.id);
+        modalTitle[count].innerText = element.title;
 
-        imgs[i].setAttribute("src", archive70s[i].img);
-        title[i].innerText = archive70s[i].title;
-        bold1 = document.createElement("b");
-        bold1.innerText = "Artist: ";
-        bold1.setAttribute("class", "elVar");
-        bold2 = document.createElement("b");
-        bold2.innerText = "Genre: ";
-        bold2.setAttribute("class", "elVar");
-        bold3 = document.createElement("b");
-        bold3.innerText = "Time Records: ";
-        bold3.setAttribute("class", "elVar");
-        paragraph1 = document.createElement("span");
-        paragraph1.setAttribute("class", "elVar");
-        paragraph2 = document.createElement("span");
-        paragraph2.setAttribute("class", "elVar");
-        paragraph3 = document.createElement("span");
-        paragraph3.setAttribute("class", "elVar");
-        paragraph1.innerText = archive70s[i].art;
-        paragraph2.innerText = archive70s[i].genre;
-        paragraph3.innerText = archive70s[i].recTime;
-        specifications[i].children[0].appendChild(bold1);
-        specifications[i].children[1].appendChild(bold2);
-        specifications[i].children[2].appendChild(bold3);
-        specifications[i].children[0].appendChild(paragraph1);
-        specifications[i].children[1].appendChild(paragraph2);
-        specifications[i].children[2].appendChild(paragraph3);
+        archiveJazz[count].songs.forEach(element => {
+            song = document.createElement("p");
+            song.innerText = element;
+            modalBody[count].appendChild(song);            
+        });
+        count++;        
+    });
+};
 
-        buttons[i].value = i;
-		buttons[i].addEventListener('click', () => {
-            details(archive70s[i])});
+const y70s = ()=>{
+
+    reset();
+
+    linkJazz.classList.remove("active");
+    linkRock.classList.remove("active");
+    link70s.classList.add("active");
+    
+    archive70s.forEach(element => {
         
-    }
-}
+        cardImg[count].setAttribute("src", element.img);
+        cardImg[count].setAttribute("alt", element.img);
+        cardTitle[count].innerText = element.title;
 
-let details = (album) => {
+        artTitle = document.createElement("span");
+        artTitle.innerText = "Artist: ";
+        artTitle.style.fontWeight = "bold";
+        artName = document.createElement("span");
+        artName.innerText = element.art;
+        artist[count].appendChild(artTitle);
+        artist[count].appendChild(artName);
 
-    if (popUp) {
-        node.removeChild(popUp);
-    }
+        genreTitle = document.createElement("span");
+        genreTitle.innerText = "Genre: ";
+        genreTitle.style.fontWeight = "bold";
+        genreName = document.createElement("span");
+        genreName.innerText = element.genre;
+        genre[count].appendChild(genreTitle);
+        genre[count].appendChild(genreName);
 
-    popUp = document.createElement("div");
-    popUp.setAttribute("class", "fixed-top");
+        recTitle = document.createElement("span");
+        recTitle.innerText = "Rec. Time: ";
+        recTitle.style.fontWeight = "bold";
+        recValue = document.createElement("span");
+        recValue.innerText = element.recTime;
+        rec[count].appendChild(recTitle);
+        rec[count].appendChild(recValue);
 
-    for (let i = 0; i < album.songs.length; i++) {
+        buttons[count].setAttribute("data-bs-target", "#" + element.id);
+        divModal[count].setAttribute("id", element.id);
+        modalTitle[count].innerText = element.title;
 
-        paragraph = document.createElement("p");
-        paragraph.setAttribute("class", "details");
-        paragraph.innerText = album.songs[i];
-        popUp.appendChild(paragraph);
-        popUp.appendChild(button);
-        button.innerText = "Close";
-        button.style.borderRadius = "10px";
-        node.appendChild(popUp);
-        button.addEventListener("click", () => { popUp.style.display = "none"; });
-    };
-}
+        archive70s[count].songs.forEach(element => {
+            song = document.createElement("p");
+            song.innerText = element;
+            modalBody[count].appendChild(song);            
+        });
+        count++;        
+    });
+};
+
+
+
 
 jazz();
 
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-// ---------------------------------------------------------------------------------------------
-// PER MOTIVI DI TEMPO E PER I PROBLEMI RISCONTRATI NON HO CURATO IN PARTICOLAR MODO I DETTAGLI
-// MI SONO DEDICATO IN MODO PARTICOLARE ALLA FUNZIONALITA' DEL PROGETTO.
-// ---------------------------------------------------------------------------------------------
-// !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
